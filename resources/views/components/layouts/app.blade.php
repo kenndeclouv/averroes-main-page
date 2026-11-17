@@ -84,6 +84,9 @@
   {{-- Loader --}}
   <x-loader />
 
+  {{-- Custom Interactive Cursor --}}
+  <x-cursor />
+
   {{-- Main Wrapper --}}
   <div id="smooth-wrapper" data-barba="container" data-barba-namespace="{{ request()->is('/') ? 'home' : request()->path() }}" class="page-wrapper">
     <div class="global-styles w-embed">

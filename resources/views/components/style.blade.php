@@ -1114,4 +1114,98 @@ a,
             white-space: nowrap !important;
         }
     }
+
+    /* ===================================================
+       AVERROES INTERACTIVE CUSTOM CURSOR
+       (Dual Element: Inner Medium Dot + Fluid Trailing Ring)
+       =================================================== */
+    @media (hover: hover) and (pointer: fine) {
+        /* html.has-custom-cursor,
+        html.has-custom-cursor body,
+        html.has-custom-cursor a,
+        html.has-custom-cursor button,
+        html.has-custom-cursor [role="button"],
+        html.has-custom-cursor .button-primary,
+        html.has-custom-cursor .w-button,
+        html.has-custom-cursor .w-inline-block,
+        html.has-custom-cursor .home-services_content-link,
+        html.has-custom-cursor .averroes-slider-btn {
+            cursor: none !important;
+        } */
+
+        html.has-custom-cursor input[type="text"],
+        html.has-custom-cursor input[type="email"],
+        html.has-custom-cursor input[type="tel"],
+        html.has-custom-cursor input[type="password"],
+        html.has-custom-cursor textarea {
+            cursor: text !important;
+        }
+    }
+
+    .averroes-cursor {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        pointer-events: none;
+        z-index: 99999999;
+        opacity: 0;
+        transition: opacity 0.25s ease;
+    }
+
+    .averroes-cursor.is-visible {
+        opacity: 1;
+    }
+
+    /* Inner medium dot */
+    .averroes-cursor-dot {
+        position: absolute;
+        top: -6px;
+        left: -6px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: var(--background--brand-primary, #E9C62C);
+        /* box-shadow: 0 0 6px rgba(0, 0, 0, 0.45), 0 0 2px rgba(233, 198, 44, 0.9); */
+        pointer-events: none;
+        will-change: transform;
+        transition: background-color 0.2s ease;
+    }
+
+    /* Outer fluid trailing ring ("Lemes" Follow) */
+    .averroes-cursor-ring {
+        position: absolute;
+        top: -22px;
+        left: -22px;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        border: 2px solid var(--background--brand-primary, #E9C62C);
+        background-color: transparent;
+        box-shadow: 0 0 10px rgba(233, 198, 44, 0.3);
+        pointer-events: none;
+        will-change: transform;
+        transition: border-color 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    /* Hover State (Interactive targets) */
+    .averroes-cursor.is-hovered .averroes-cursor-ring {
+        border-color: #E9C62C;
+        background-color: rgba(233, 198, 44, 0.14);
+        box-shadow: 0 0 18px rgba(233, 198, 44, 0.55);
+    }
+
+    /* Active State (Mousedown / Click) */
+    .averroes-cursor.is-active .averroes-cursor-ring {
+        background-color: rgba(233, 198, 44, 0.28);
+        border-width: 2.5px;
+    }
+
+    /* Hide completely on mobile & touch screens */
+    @media (hover: none) and (pointer: coarse) {
+        .averroes-cursor {
+            display: none !important;
+        }
+    }
 </style>
