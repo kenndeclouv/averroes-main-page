@@ -116,17 +116,17 @@
               {{-- Top Meta Bar --}}
               <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; border-bottom: 1px solid {{ $theme['border_bottom'] }}; padding-bottom: 0.85rem; margin-bottom: clamp(1rem, 1.8vh, 1.75rem);">
                 <div style="display: flex; align-items: center; gap: 0.65rem;">
-                  <span style="display: inline-block; width: 7px; height: 7px; background: {{ $theme['accent'] }};"></span>
-                  <span style="font-size: 0.72rem; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase; color: {{ $theme['accent'] }};">
+                  <span style="display: inline-block; width: 8px; height: 8px; background: {{ $theme['accent'] }};"></span>
+                  <span style="font-size: 0.88rem; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase; color: {{ $theme['accent'] }};">
                     DIREKTORI ANGKATAN • 0{{ $angId }} / 0{{ count($angkatans) + 1 }}
                   </span>
                 </div>
                 
                 <div style="display: flex; align-items: center; gap: 0.65rem;">
-                  <span style="font-size: 0.7rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: {{ $theme['badge_color'] }}; background: {{ $theme['badge_bg'] }}; border: 1px solid {{ $theme['badge_border'] }}; padding: 0.25rem 0.65rem; border-radius: 0;">
+                  <span style="font-size: 0.82rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: {{ $theme['badge_color'] }}; background: {{ $theme['badge_bg'] }}; border: 1px solid {{ $theme['badge_border'] }}; padding: 0.35rem 0.75rem; border-radius: 0;">
                     {{ $ang['status'] ?? 'Aktif Belajar' }}
                   </span>
-                  <span style="font-size: 0.7rem; font-weight: 800; color: {{ $theme['accent'] }}; border: 1px solid {{ $theme['tag_border'] }}; background: {{ $theme['tag_bg'] }}; padding: 0.25rem 0.65rem; border-radius: 0;">
+                  <span style="font-size: 0.82rem; font-weight: 800; color: {{ $theme['accent'] }}; border: 1px solid {{ $theme['tag_border'] }}; background: {{ $theme['tag_bg'] }}; padding: 0.35rem 0.75rem; border-radius: 0;">
                     T.A. {{ $ang['tahun_ajaran'] ?? '2024/2025' }}
                   </span>
                 </div>
@@ -140,8 +140,8 @@
                   
                   {{-- Number Badge & Julukan Title --}}
                   <div style="margin-bottom: 0.85rem;">
-                    <div style="display: inline-flex; align-items: center; gap: 0.4rem; background: {{ $theme['tag_bg'] }}; border: 1px solid {{ $theme['tag_border'] }}; padding: 0.2rem 0.6rem; border-radius: 0; margin-bottom: 0.5rem;">
-                      <span style="font-size: 0.68rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: {{ $theme['accent'] }};">
+                    <div style="display: inline-flex; align-items: center; gap: 0.4rem; background: {{ $theme['tag_bg'] }}; border: 1px solid {{ $theme['tag_border'] }}; padding: 0.3rem 0.75rem; border-radius: 0; margin-bottom: 0.5rem;">
+                      <span style="font-size: 0.82rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: {{ $theme['accent'] }};">
                         Pilar Generasi
                       </span>
                     </div>
@@ -155,36 +155,36 @@
                   </div>
 
                   {{-- Description Quote Box (100% Ngotak, Square) --}}
-                  <div style="background: {{ $theme['quote_bg'] }}; border: 1px solid {{ $theme['quote_border'] }}; border-left: 5px solid {{ $theme['quote_bar'] }}; border-radius: 0; padding: 1rem 1.25rem; margin-bottom: 1.15rem;">
-                    <p style="font-size: clamp(0.88rem, 1.05vw, 0.98rem); line-height: 1.6; color: {{ $theme['subtext'] }}; margin: 0; font-weight: 500;">
+                  <div style="background: {{ $theme['quote_bg'] }}; border: 1px solid {{ $theme['quote_border'] }}; border-left: 5px solid {{ $theme['quote_bar'] }}; border-radius: 0; padding: 1.15rem 1.35rem; margin-bottom: 1.25rem;">
+                    <p style="font-size: clamp(0.98rem, 1.1vw, 1.08rem); line-height: 1.65; color: {{ $theme['subtext'] }}; margin: 0; font-weight: 500;">
                       "{{ $ang['deskripsi'] ?? 'Santri Averroes Digital Islamic School dengan penguasaan kompetensi IT dan nilai-nilai Qur\'ani.' }}"
                     </p>
                   </div>
 
                   {{-- Key Stats Cards (100% Ngotak, Square) --}}
-                  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.65rem; margin-bottom: 1.35rem;">
-                    <div style="background: {{ $theme['card_bg'] }}; border: 1px solid {{ $theme['card_border'] }}; border-radius: 0; padding: 0.65rem 0.8rem;">
-                      <span style="font-size: 0.62rem; font-weight: 800; text-transform: uppercase; color: {{ $theme['subtext'] }}; display: block; margin-bottom: 0.15rem;">Kapasitas</span>
-                      <strong style="font-size: 1.05rem; font-weight: 900; color: {{ $theme['text'] }}; font-family: var(--_font---font-family--heading, sans-serif);">{{ $studentCount }} Santri</strong>
+                  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin-bottom: 1.35rem;">
+                    <div style="background: {{ $theme['card_bg'] }}; border: 1px solid {{ $theme['card_border'] }}; border-radius: 0; padding: 0.75rem 0.9rem;">
+                      <span style="font-size: 0.8rem; font-weight: 800; text-transform: uppercase; color: {{ $theme['subtext'] }}; display: block; margin-bottom: 0.2rem;">Kapasitas</span>
+                      <strong style="font-size: 1.15rem; font-weight: 900; color: {{ $theme['text'] }}; font-family: var(--_font---font-family--heading, sans-serif);">{{ $studentCount }} Santri</strong>
                     </div>
-                    <div style="background: {{ $theme['card_bg'] }}; border: 1px solid {{ $theme['card_border'] }}; border-radius: 0; padding: 0.65rem 0.8rem;">
-                      <span style="font-size: 0.62rem; font-weight: 800; text-transform: uppercase; color: {{ $theme['subtext'] }}; display: block; margin-bottom: 0.15rem;">Jurusan</span>
-                      <strong style="font-size: 1.05rem; font-weight: 900; color: {{ $theme['accent'] }}; font-family: var(--_font---font-family--heading, sans-serif);">RPL &amp; DKV</strong>
+                    <div style="background: {{ $theme['card_bg'] }}; border: 1px solid {{ $theme['card_border'] }}; border-radius: 0; padding: 0.75rem 0.9rem;">
+                      <span style="font-size: 0.8rem; font-weight: 800; text-transform: uppercase; color: {{ $theme['subtext'] }}; display: block; margin-bottom: 0.2rem;">Jurusan</span>
+                      <strong style="font-size: 1.15rem; font-weight: 900; color: {{ $theme['accent'] }}; font-family: var(--_font---font-family--heading, sans-serif);">RPL &amp; DKV</strong>
                     </div>
-                    <div style="background: {{ $theme['card_bg'] }}; border: 1px solid {{ $theme['card_border'] }}; border-radius: 0; padding: 0.65rem 0.8rem;">
-                      <span style="font-size: 0.62rem; font-weight: 800; text-transform: uppercase; color: {{ $theme['subtext'] }}; display: block; margin-bottom: 0.15rem;">Model</span>
-                      <strong style="font-size: 1.05rem; font-weight: 900; color: {{ $theme['text'] }}; font-family: var(--_font---font-family--heading, sans-serif);">Pesantren IT</strong>
+                    <div style="background: {{ $theme['card_bg'] }}; border: 1px solid {{ $theme['card_border'] }}; border-radius: 0; padding: 0.75rem 0.9rem;">
+                      <span style="font-size: 0.8rem; font-weight: 800; text-transform: uppercase; color: {{ $theme['subtext'] }}; display: block; margin-bottom: 0.2rem;">Model</span>
+                      <strong style="font-size: 1.15rem; font-weight: 900; color: {{ $theme['text'] }}; font-family: var(--_font---font-family--heading, sans-serif);">Pesantren IT</strong>
                     </div>
                   </div>
 
                   {{-- Action Buttons (100% Ngotak, Square) --}}
                   <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 0.85rem;">
-                    <a href="{{ route('landing.angkatan.show', $angId) }}" style="display: inline-flex; align-items: center; gap: 0.65rem; background: {{ $theme['btn_bg'] }}; color: {{ $theme['btn_color'] }}; font-weight: 900; font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.85rem 1.5rem; border-radius: 0; text-decoration: none; transition: transform 0.2s, opacity 0.2s;">
+                    <a href="{{ route('landing.angkatan.show', $angId) }}" style="display: inline-flex; align-items: center; gap: 0.65rem; background: {{ $theme['btn_bg'] }}; color: {{ $theme['btn_color'] }}; font-weight: 900; font-size: 0.95rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.95rem 1.65rem; border-radius: 0; text-decoration: none; transition: transform 0.2s, opacity 0.2s;">
                       <span>Lihat Struktur &amp; Santri</span>
                       <span>➔</span>
                     </a>
 
-                    <a href="#{{ $nextWrapperId }}" onclick="event.preventDefault(); typeof lenis !== 'undefined' ? lenis.scrollTo('#{{ $nextWrapperId }}') : document.getElementById('{{ $nextWrapperId }}').scrollIntoView({behavior:'smooth'});" style="display: inline-flex; align-items: center; gap: 0.35rem; color: {{ $theme['next_link_color'] }}; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; text-decoration: none; padding: 0.75rem 0.5rem;">
+                    <a href="#{{ $nextWrapperId }}" onclick="event.preventDefault(); typeof lenis !== 'undefined' ? lenis.scrollTo('#{{ $nextWrapperId }}') : document.getElementById('{{ $nextWrapperId }}').scrollIntoView({behavior:'smooth'});" style="display: inline-flex; align-items: center; gap: 0.35rem; color: {{ $theme['next_link_color'] }}; font-size: 0.88rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; text-decoration: none; padding: 0.75rem 0.5rem;">
                       <span>{{ ($angId < count($angkatans)) ? 'Scroll Angkatan ' . ($angId + 1) : 'PPDB Selanjutnya' }} ↓</span>
                     </a>
                   </div>

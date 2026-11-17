@@ -8,9 +8,9 @@
       <div style="max-width: 820px; margin: 0 auto; text-align: center;">
         
         {{-- Kicker Badge --}}
-        <div style="display: inline-flex; align-items: center; gap: 0.6rem; border: 1px solid rgba(233, 198, 44, 0.35); background: rgba(233, 198, 44, 0.08); padding: 0.4rem 1.15rem; border-radius: 999px; margin-bottom: 1.5rem;">
+        <div style="display: inline-flex; align-items: center; gap: 0.6rem; border: 1px solid rgba(233, 198, 44, 0.35); background: rgba(233, 198, 44, 0.08); padding: 0.45rem 1.25rem; border-radius: 999px; margin-bottom: 1.5rem;">
           <span style="width: 8px; height: 8px; border-radius: 50%; background-color: {{ $angkatan['badge_color'] ?? '#22c55e' }}; display: inline-block; box-shadow: 0 0 10px {{ $angkatan['badge_color'] ?? '#22c55e' }};"></span>
-          <span style="font-size: 0.75rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--background--brand-primary, #E9C62C);">
+          <span style="font-size: 0.88rem; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase; color: var(--background--brand-primary, #E9C62C);">
             {{ $angkatan['status'] ?? 'Aktif Belajar' }} • T.A. {{ $angkatan['tahun_ajaran'] ?? '2024/2025' }}
           </span>
         </div>
@@ -115,10 +115,10 @@
               {{-- Info --}}
               <div style="flex: 1; min-width: 0;">
                 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.25rem;">
-                  <span style="font-size: 0.7rem; font-weight: 700; color: rgba(255,255,255,0.4); font-family: monospace;">
+                  <span style="font-size: 0.85rem; font-weight: 800; color: rgba(255,255,255,0.6); font-family: monospace;">
                     #{{ str_pad($index + 1, 2, '0', STR_PAD_LEFT) }}
                   </span>
-                  <span style="font-size: 0.68rem; background: rgba(255,255,255,0.06); padding: 0.15rem 0.5rem; border-radius: 4px; color: #BBB;">
+                  <span style="font-size: 0.8rem; font-weight: 700; background: rgba(255,255,255,0.08); padding: 0.2rem 0.6rem; border-radius: 4px; color: #DDD;">
                     Santri
                   </span>
                 </div>

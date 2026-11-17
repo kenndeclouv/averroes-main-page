@@ -18,7 +18,7 @@
       </h1>
 
       {{-- Moto --}}
-      <p style="font-size: clamp(0.95rem, 1.4vw, 1.35rem); font-style: italic; color: #FFFFFF !important; opacity: 0.95; margin-top: 1.25rem; margin-bottom: 0; text-shadow: 0 2px 12px rgba(0,0,0,0.85); letter-spacing: 0.05em; font-weight: 500;">
+      <p class="hero_motto" style="font-size: clamp(1.05rem, 1.8vw, 1.65rem); font-style: italic; color: #FFFFFF !important; opacity: 0.95; margin-top: 1.15rem; margin-bottom: 0; text-shadow: 0 2px 14px rgba(0,0,0,0.85); letter-spacing: 0.04em; font-weight: 600; text-align: center; white-space: nowrap !important;">
         "Jiwanya Santri, Skill nya IT"
       </p>
 
@@ -161,30 +161,30 @@
                 </div>
 
                 <div style="margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.12);">
-                  <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.12em; color:var(--background--brand-primary, #E9C62C); font-weight:700; margin-bottom:0.85rem;">
+                  <div style="font-size:0.88rem; text-transform:uppercase; letter-spacing:0.12em; color:var(--background--brand-primary, #E9C62C); font-weight:800; margin-bottom:0.85rem;">
                     Digital Skills Yang Dipelajari:
                   </div>
-                  <div style="display: flex; flex-direction: column; gap: 0.6rem;">
-                    <div style="display:flex; align-items:center; gap:0.6rem; color:var(--text--primary, #FFFFFF); font-size:0.92rem;">
-                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold;">✦</span> Web Development (HTML, CSS, JS, PHP, Laravel)
+                  <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                    <div style="display:flex; align-items:center; gap:0.65rem; color:var(--text--primary, #FFFFFF); font-size:1.02rem; line-height:1.5;">
+                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold; font-size:1.1rem;">✦</span> Web Development (HTML, CSS, JS, PHP, Laravel)
                     </div>
-                    <div style="display:flex; align-items:center; gap:0.6rem; color:var(--text--primary, #FFFFFF); font-size:0.92rem;">
-                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold;">✦</span> Database Management (MySQL, PostgreSQL)
+                    <div style="display:flex; align-items:center; gap:0.65rem; color:var(--text--primary, #FFFFFF); font-size:1.02rem; line-height:1.5;">
+                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold; font-size:1.1rem;">✦</span> Database Management (MySQL, PostgreSQL)
                     </div>
-                    <div style="display:flex; align-items:center; gap:0.6rem; color:var(--text--primary, #FFFFFF); font-size:0.92rem;">
-                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold;">✦</span> Mobile App Development (Flutter)
+                    <div style="display:flex; align-items:center; gap:0.65rem; color:var(--text--primary, #FFFFFF); font-size:1.02rem; line-height:1.5;">
+                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold; font-size:1.1rem;">✦</span> Mobile App Development (Flutter)
                     </div>
-                    <div style="display:flex; align-items:center; gap:0.6rem; color:var(--text--primary, #FFFFFF); font-size:0.92rem;">
-                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold;">✦</span> Algoritma & Struktur Data
+                    <div style="display:flex; align-items:center; gap:0.65rem; color:var(--text--primary, #FFFFFF); font-size:1.02rem; line-height:1.5;">
+                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold; font-size:1.1rem;">✦</span> Algoritma & Struktur Data
                     </div>
-                    <div style="display:flex; align-items:center; gap:0.6rem; color:var(--text--primary, #FFFFFF); font-size:0.92rem;">
-                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold;">✦</span> Git & Version Control System
+                    <div style="display:flex; align-items:center; gap:0.65rem; color:var(--text--primary, #FFFFFF); font-size:1.02rem; line-height:1.5;">
+                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold; font-size:1.1rem;">✦</span> Git & Version Control System
                     </div>
-                    <div style="display:flex; align-items:center; gap:0.6rem; color:var(--text--primary, #FFFFFF); font-size:0.92rem;">
-                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold;">✦</span> RESTful API & Backend Architecture
+                    <div style="display:flex; align-items:center; gap:0.65rem; color:var(--text--primary, #FFFFFF); font-size:1.02rem; line-height:1.5;">
+                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold; font-size:1.1rem;">✦</span> RESTful API & Backend Architecture
                     </div>
-                    <div style="display:flex; align-items:center; gap:0.6rem; color:var(--text--primary, #FFFFFF); font-size:0.92rem;">
-                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold;">✦</span> Cloud Computing & Deployment
+                    <div style="display:flex; align-items:center; gap:0.65rem; color:var(--text--primary, #FFFFFF); font-size:1.02rem; line-height:1.5;">
+                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold; font-size:1.1rem;">✦</span> Cloud Computing & Deployment
                     </div>
                   </div>
                 </div>
@@ -198,7 +198,7 @@
                   <div class="home-services_services-title">
                     <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.5rem;">
                       <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background-color:var(--background--brand-primary, #E9C62C);"></span>
-                      <span style="font-size:0.8rem; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:var(--background--brand-primary, #E9C62C);">Program Kreatif Digital</span>
+                      <span style="font-size:0.85rem; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:var(--background--brand-primary, #E9C62C);">Program Kreatif Digital</span>
                     </div>
                     <h3 data-anim="title" class="text-color-primary heading-style-h4">Desain Komunikasi Visual (DKV)</h3>
                     <div class="padding-bottom padding-medium"></div>
@@ -210,33 +210,33 @@
                 </div>
 
                 <div style="margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.12);">
-                  <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.12em; color:var(--background--brand-primary, #E9C62C); font-weight:700; margin-bottom:0.85rem;">
+                  <div style="font-size:0.88rem; text-transform:uppercase; letter-spacing:0.12em; color:var(--background--brand-primary, #E9C62C); font-weight:800; margin-bottom:0.85rem;">
                     Digital Skills Yang Dipelajari:
                   </div>
-                  <div style="display: flex; flex-direction: column; gap: 0.6rem;">
-                    <div style="display:flex; align-items:center; gap:0.6rem; color:var(--text--primary, #FFFFFF); font-size:0.92rem;">
-                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold;">✦</span> Graphic Design (Photoshop, Illustrator)
+                  <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                    <div style="display:flex; align-items:center; gap:0.65rem; color:var(--text--primary, #FFFFFF); font-size:1.02rem; line-height:1.5;">
+                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold; font-size:1.1rem;">✦</span> Graphic Design (Photoshop, Illustrator)
                     </div>
-                    <div style="display:flex; align-items:center; gap:0.6rem; color:var(--text--primary, #FFFFFF); font-size:0.92rem;">
-                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold;">✦</span> UI/UX Design (Figma, Prototyping)
+                    <div style="display:flex; align-items:center; gap:0.65rem; color:var(--text--primary, #FFFFFF); font-size:1.02rem; line-height:1.5;">
+                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold; font-size:1.1rem;">✦</span> UI/UX Design (Figma, Prototyping)
                     </div>
-                    <div style="display:flex; align-items:center; gap:0.6rem; color:var(--text--primary, #FFFFFF); font-size:0.92rem;">
-                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold;">✦</span> Video Editing & Motion Graphics (Premiere, After Effects)
+                    <div style="display:flex; align-items:center; gap:0.65rem; color:var(--text--primary, #FFFFFF); font-size:1.02rem; line-height:1.5;">
+                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold; font-size:1.1rem;">✦</span> Video Editing & Motion Graphics (Premiere, After Effects)
                     </div>
-                    <div style="display:flex; align-items:center; gap:0.6rem; color:var(--text--primary, #FFFFFF); font-size:0.92rem;">
-                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold;">✦</span> 3D Modeling & Animation (Blender)
+                    <div style="display:flex; align-items:center; gap:0.65rem; color:var(--text--primary, #FFFFFF); font-size:1.02rem; line-height:1.5;">
+                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold; font-size:1.1rem;">✦</span> 3D Modeling & Animation (Blender)
                     </div>
-                    <div style="display:flex; align-items:center; gap:0.6rem; color:var(--text--primary, #FFFFFF); font-size:0.92rem;">
-                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold;">✦</span> Fotografi & Sinematografi
+                    <div style="display:flex; align-items:center; gap:0.65rem; color:var(--text--primary, #FFFFFF); font-size:1.02rem; line-height:1.5;">
+                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold; font-size:1.1rem;">✦</span> Fotografi & Sinematografi
                     </div>
-                    <div style="display:flex; align-items:center; gap:0.6rem; color:var(--text--primary, #FFFFFF); font-size:0.92rem;">
-                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold;">✦</span> Branding & Corporate Identity
+                    <div style="display:flex; align-items:center; gap:0.65rem; color:var(--text--primary, #FFFFFF); font-size:1.02rem; line-height:1.5;">
+                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold; font-size:1.1rem;">✦</span> Branding & Corporate Identity
                     </div>
-                    <div style="display:flex; align-items:center; gap:0.6rem; color:var(--text--primary, #FFFFFF); font-size:0.92rem;">
-                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold;">✦</span> Digital Illustration & Vector Art
+                    <div style="display:flex; align-items:center; gap:0.65rem; color:var(--text--primary, #FFFFFF); font-size:1.02rem; line-height:1.5;">
+                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold; font-size:1.1rem;">✦</span> Digital Illustration & Vector Art
                     </div>
-                    <div style="display:flex; align-items:center; gap:0.6rem; color:var(--text--primary, #FFFFFF); font-size:0.92rem;">
-                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold;">✦</span> Social Media Content Creation
+                    <div style="display:flex; align-items:center; gap:0.65rem; color:var(--text--primary, #FFFFFF); font-size:1.02rem; line-height:1.5;">
+                      <span style="color:var(--background--brand-primary, #E9C62C); font-weight:bold; font-size:1.1rem;">✦</span> Social Media Content Creation
                     </div>
                   </div>
                 </div>
@@ -452,40 +452,40 @@
           
           {{-- Section Header --}}
           <div style="text-align: center; margin-bottom: 2.75rem;">
-            <div style="display: inline-flex; align-items: center; gap: 0.6rem; border: 1px solid rgba(26,26,24,0.15); background: #FAF9F5; padding: 0.4rem 1.25rem; margin-bottom: 1.25rem; border-radius: 4px;">
+            <div style="display: inline-flex; align-items: center; gap: 0.6rem; border: 1px solid rgba(26,26,24,0.18); background: #FAF9F5; padding: 0.5rem 1.35rem; margin-bottom: 1.25rem; border-radius: 4px;">
               <span style="width: 8px; height: 8px; background-color: #E9C62C; display: inline-block;"></span>
-              <span style="font-size: 0.8rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: #1A1A18;">Penerimaan Santri Baru (PPDB)</span>
+              <span style="font-size: 0.88rem; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase; color: #1A1A18;">Penerimaan Santri Baru (PPDB)</span>
             </div>
-            <h2 style="font-size: clamp(2rem, 3.8vw, 3.25rem); font-weight: 800; color: #1A1A18; text-transform: uppercase; letter-spacing: -0.02em; margin: 0 0 0.65rem; line-height: 1.15;">
+            <h2 style="font-size: clamp(2.2rem, 4.5vw, 3.5rem); font-weight: 900; color: #1A1A18; text-transform: uppercase; letter-spacing: -0.02em; margin: 0 0 0.75rem; line-height: 1.15;">
               Tahun Ajaran 2026/2027
             </h2>
-            <p style="font-size: clamp(0.95rem, 1.4vw, 1.1rem); color: #555550; max-width: 620px; margin: 0 auto; line-height: 1.6;">
+            <p style="font-size: clamp(1.05rem, 1.6vw, 1.2rem); color: #4A4A45; max-width: 650px; margin: 0 auto; line-height: 1.65;">
               Membuka pendaftaran santri baru untuk jenjang SMK berbasis pesantren IT modern di Malang. Raih kesempatan beasiswa dan diskon biaya pendaftaran.
             </p>
           </div>
 
           {{-- 1. Golden Ticket Voucher (Beasiswa Penuh 100%) --}}
-          <div class="ppdb-ticket-voucher" style="position: relative; margin-bottom: 2.25rem; background: linear-gradient(135deg, #DEAE2B 0%, #E9C62C 35%, #F7DC6F 70%, #DEAE2B 100%); padding: 2.25rem 2rem; border-radius: 12px; box-shadow: 0 16px 40px rgba(233, 198, 44, 0.28); color: #FFFFFF; overflow: hidden;">
+          <div class="ppdb-ticket-voucher" style="position: relative; margin-bottom: 2.25rem; background: linear-gradient(135deg, #DEAE2B 0%, #E9C62C 35%, #F7DC6F 70%, #DEAE2B 100%); padding: 2.5rem 2rem; border-radius: 14px; box-shadow: 0 16px 40px rgba(233, 198, 44, 0.28); color: #FFFFFF; overflow: hidden;">
             {{-- Circular ticket notches on sides --}}
-            <div style="position: absolute; left: -16px; top: 50%; transform: translateY(-50%); width: 32px; height: 32px; background-color: #FFFFFF; border-radius: 50%; box-shadow: inset -3px 0 6px rgba(0,0,0,0.12);"></div>
-            <div style="position: absolute; right: -16px; top: 50%; transform: translateY(-50%); width: 32px; height: 32px; background-color: #FFFFFF; border-radius: 50%; box-shadow: inset 3px 0 6px rgba(0,0,0,0.12);"></div>
+            <div style="position: absolute; left: -18px; top: 50%; transform: translateY(-50%); width: 36px; height: 36px; background-color: #FFFFFF; border-radius: 50%; box-shadow: inset -3px 0 6px rgba(0,0,0,0.12);"></div>
+            <div style="position: absolute; right: -18px; top: 50%; transform: translateY(-50%); width: 36px; height: 36px; background-color: #FFFFFF; border-radius: 50%; box-shadow: inset 3px 0 6px rgba(0,0,0,0.12);"></div>
 
             {{-- Inner Dashed Frame --}}
-            <div style="border: 2px dashed rgba(255, 255, 255, 0.85); border-radius: 8px; padding: 1.75rem 1.25rem; text-align: center;">
+            <div style="border: 2px dashed rgba(255, 255, 255, 0.9); border-radius: 10px; padding: 2rem 1.5rem; text-align: center;">
               {{-- Stars & Subtitle --}}
-              <div style="display: flex; align-items: center; justify-content: center; gap: 0.75rem; margin-bottom: 0.4rem;">
-                <span style="font-size: 1.1rem; letter-spacing: 0.25em;">★★★</span>
-                <span style="font-size: clamp(0.85rem, 1.5vw, 1.15rem); font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase;">Raih Kesempatan</span>
-                <span style="font-size: 1.1rem; letter-spacing: 0.25em;">★★★</span>
+              <div style="display: flex; align-items: center; justify-content: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+                <span style="font-size: 1.25rem; letter-spacing: 0.25em;">★★★</span>
+                <span style="font-size: clamp(0.95rem, 1.8vw, 1.3rem); font-weight: 900; letter-spacing: 0.2em; text-transform: uppercase;">Raih Kesempatan</span>
+                <span style="font-size: 1.25rem; letter-spacing: 0.25em;">★★★</span>
               </div>
 
               {{-- Main Headline --}}
-              <h3 style="font-size: clamp(1.85rem, 4.5vw, 3.25rem); font-weight: 900; letter-spacing: -0.01em; text-transform: uppercase; margin: 0.25rem 0 0.75rem; color: #FFFFFF; text-shadow: 0 2px 10px rgba(0, 0, 0, 0.12); line-height: 1.1;">
+              <h3 style="font-size: clamp(2.2rem, 5.5vw, 3.8rem); font-weight: 900; letter-spacing: -0.01em; text-transform: uppercase; margin: 0.35rem 0 0.85rem; color: #FFFFFF; text-shadow: 0 3px 12px rgba(0, 0, 0, 0.2); line-height: 1.1;">
                 Beasiswa Penuh 100%
               </h3>
 
               {{-- Available Tracks Badge --}}
-              <div style="display: inline-block; font-size: clamp(0.75rem, 1.2vw, 0.95rem); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; background: rgba(0, 0, 0, 0.14); padding: 0.45rem 1.35rem; border-radius: 999px;">
+              <div style="display: inline-block; font-size: clamp(0.85rem, 1.4vw, 1.05rem); font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; background: rgba(0, 0, 0, 0.2); padding: 0.55rem 1.5rem; border-radius: 999px;">
                 Tersedia Jalur : Reguler • Prestasi Tahfidz • Yatim / Dhuafa
               </div>
             </div>
@@ -495,18 +495,18 @@
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.75rem; align-items: stretch;">
             
             {{-- Kolom Kiri: Syarat Pendaftaran --}}
-            <div style="background: #FAF9F5; border: 1px solid rgba(26,26,24,0.12); padding: 2.25rem 2rem; border-radius: 12px; display: flex; flex-direction: column; justify-content: space-between;">
+            <div style="background: #FAF9F5; border: 1px solid rgba(26,26,24,0.14); padding: 2.25rem 2rem; border-radius: 12px; display: flex; flex-direction: column; justify-content: space-between;">
               <div>
-                <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.75rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(26,26,24,0.08);">
-                  <div style="width: 36px; height: 36px; background: #E9C62C; display: flex; align-items: center; justify-content: center; border-radius: 6px; color: #1A1A18; font-weight: 900; font-size: 1.1rem;">
+                <div style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 1.75rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(26,26,24,0.1);">
+                  <div style="width: 40px; height: 40px; background: #E9C62C; display: flex; align-items: center; justify-content: center; border-radius: 8px; color: #1A1A18; font-weight: 900; font-size: 1.25rem;">
                     ✓
                   </div>
-                  <h4 style="font-size: 1.35rem; font-weight: 800; color: #1A1A18; text-transform: uppercase; margin: 0; letter-spacing: 0.02em;">
+                  <h4 style="font-size: 1.45rem; font-weight: 900; color: #1A1A18; text-transform: uppercase; margin: 0; letter-spacing: 0.02em;">
                     Syarat Pendaftaran
                   </h4>
                 </div>
 
-                <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 1.15rem;">
+                <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 1.25rem;">
                   @php
                     $syaratList = [
                       "Memiliki bacaan qur'an yang baik (standar tartil)",
@@ -517,8 +517,8 @@
                     ];
                   @endphp
                   @foreach($syaratList as $syarat)
-                    <li style="display: flex; align-items: flex-start; gap: 0.85rem; font-size: 0.95rem; color: #2A2A26; line-height: 1.5; font-weight: 500;">
-                      <span style="flex-shrink: 0; width: 22px; height: 22px; background: #E9C62C; color: #1A1A18; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 900; margin-top: 2px;">
+                    <li style="display: flex; align-items: flex-start; gap: 0.85rem; font-size: 1.05rem; color: #1A1A18; line-height: 1.6; font-weight: 600;">
+                      <span style="flex-shrink: 0; width: 24px; height: 24px; background: #E9C62C; color: #1A1A18; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; font-weight: 900; margin-top: 3px;">
                         ✓
                       </span>
                       <span>{{ $syarat }}</span>
@@ -527,8 +527,8 @@
                 </ul>
               </div>
 
-              <div style="margin-top: 2rem; padding: 1rem 1.15rem; background: #FFFFFF; border-left: 3px solid #E9C62C; border-radius: 0 6px 6px 0; font-size: 0.85rem; color: #666660; line-height: 1.5;">
-                <strong style="color: #1A1A18;">Catatan:</strong> Kuota beasiswa terbatas per gelombang. Seleksi berkas dan tes bacaan Al-Qur'an dilakukan secara online maupun tatap muka.
+              <div style="margin-top: 2rem; padding: 1.15rem 1.25rem; background: #FFFFFF; border-left: 4px solid #E9C62C; border-radius: 0 8px 8px 0; font-size: 0.95rem; color: #4A4A45; line-height: 1.6;">
+                <strong style="color: #1A1A18; font-weight: 800;">Catatan:</strong> Kuota beasiswa terbatas per gelombang. Seleksi berkas dan tes bacaan Al-Qur'an dilakukan secara online maupun tatap muka.
               </div>
             </div>
 
@@ -539,32 +539,32 @@
               <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: stretch;">
                 
                 {{-- Badge Potongan 50% --}}
-                <div style="flex: 1 1 120px; background: #E11D48; color: #FFFFFF; padding: 1.5rem 1.25rem; border-radius: 12px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; box-shadow: 0 8px 24px rgba(225, 29, 72, 0.22);">
-                  <span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; line-height: 1.3;">
+                <div style="flex: 1 1 130px; background: #E11D48; color: #FFFFFF; padding: 1.5rem 1.25rem; border-radius: 12px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; box-shadow: 0 8px 24px rgba(225, 29, 72, 0.22);">
+                  <span style="font-size: 0.85rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; line-height: 1.3;">
                     Potongan Biaya Pendaftaran
                   </span>
-                  <div style="font-size: clamp(2.25rem, 4vw, 3rem); font-weight: 900; line-height: 1; margin: 0.4rem 0;">
+                  <div style="font-size: clamp(2.6rem, 5vw, 3.4rem); font-weight: 900; line-height: 1; margin: 0.45rem 0;">
                     50%
                   </div>
-                  <span style="font-size: 0.75rem; font-weight: 600; opacity: 0.95;">
+                  <span style="font-size: 0.85rem; font-weight: 700; opacity: 0.95;">
                     Untuk Gelombang 1
                   </span>
                 </div>
 
                 {{-- Teal Schedule Box --}}
                 <div style="flex: 2 1 240px; background: #00897B; color: #FFFFFF; padding: 1.5rem 1.75rem; border-radius: 12px; display: flex; flex-direction: column; justify-content: center; box-shadow: 0 8px 24px rgba(0, 137, 123, 0.22);">
-                  <div style="font-size: 0.95rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; opacity: 0.9; margin-bottom: 0.75rem;">
+                  <div style="font-size: 1rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.95; margin-bottom: 0.75rem;">
                     Pendaftaran Gelombang 1
                   </div>
                   <div style="display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap;">
                     <div>
-                      <span style="font-size: 2.25rem; font-weight: 900; color: #E9C62C; line-height: 1;">01</span>
-                      <span style="font-size: 0.85rem; font-weight: 700; margin-left: 0.25rem;">November 2026</span>
+                      <span style="font-size: 2.5rem; font-weight: 900; color: #E9C62C; line-height: 1;">01</span>
+                      <span style="font-size: 0.95rem; font-weight: 800; margin-left: 0.35rem;">November 2026</span>
                     </div>
-                    <span style="font-size: 1.5rem; font-weight: 900; color: #E9C62C; margin: 0 0.25rem;">—</span>
+                    <span style="font-size: 1.75rem; font-weight: 900; color: #E9C62C; margin: 0 0.35rem;">—</span>
                     <div>
-                      <span style="font-size: 2.25rem; font-weight: 900; color: #E9C62C; line-height: 1;">31</span>
-                      <span style="font-size: 0.85rem; font-weight: 700; margin-left: 0.25rem;">Desember 2026</span>
+                      <span style="font-size: 2.5rem; font-weight: 900; color: #E9C62C; line-height: 1;">31</span>
+                      <span style="font-size: 0.95rem; font-weight: 800; margin-left: 0.35rem;">Desember 2026</span>
                     </div>
                   </div>
                 </div>
@@ -572,38 +572,38 @@
               </div>
 
               {{-- Card Informasi Pendaftaran & Kontak --}}
-              <div style="background: #1A1A18; color: #FFFFFF; padding: 2rem; border-radius: 12px; display: flex; flex-direction: column; justify-content: space-between; gap: 1.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+              <div style="background: #1A1A18; color: #FFFFFF; padding: 2.25rem 2rem; border-radius: 12px; display: flex; flex-direction: column; justify-content: space-between; gap: 1.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.18);">
                 <div>
-                  <div style="display: flex; align-items: center; gap: 0.65rem; margin-bottom: 1rem;">
-                    <span style="display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; background: #E9C62C; border-radius: 6px; color: #1A1A18; font-size: 0.9rem;">
+                  <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.15rem;">
+                    <span style="display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: #E9C62C; border-radius: 6px; color: #1A1A18; font-size: 1rem;">
                       📞
                     </span>
-                    <span style="font-size: 0.85rem; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase; color: #E9C62C;">
+                    <span style="font-size: 0.95rem; font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase; color: #E9C62C;">
                       Informasi Pendaftaran
                     </span>
                   </div>
 
-                  <p style="font-size: 0.88rem; color: #D0D0C8; margin-bottom: 1.15rem; line-height: 1.55;">
+                  <p style="font-size: 1.02rem; color: #E5E5DE; margin-bottom: 1.25rem; line-height: 1.65;">
                     📍 Perumahan Permata Jingga Blok Pinang No.5, Tunggulwulung, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141
                   </p>
 
-                  <div style="display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.95rem; font-weight: 700;">
-                    <a href="https://wa.me/6289505875530" target="_blank" rel="noopener" style="color: #FFFFFF; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; transition: color 0.2s;" onmouseover="this.style.color='#E9C62C'" onmouseout="this.style.color='#FFFFFF'">
-                      <span>💬</span> +62 895-0587-5530
+                  <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                    <a href="https://wa.me/6289505875530" target="_blank" rel="noopener" style="color: #FFFFFF; text-decoration: none; display: inline-flex; align-items: center; gap: 0.6rem; font-size: 1.18rem; font-weight: 800; transition: color 0.2s;" onmouseover="this.style.color='#E9C62C'" onmouseout="this.style.color='#FFFFFF'">
+                      <span style="font-size: 1.25rem;">💬</span> +62 895-0587-5530
                     </a>
-                    <a href="mailto:islamicschoolaverroes@gmail.com" style="color: #A0A09A; text-decoration: none; font-size: 0.85rem; font-weight: 500; display: inline-flex; align-items: center; gap: 0.5rem; transition: color 0.2s;" onmouseover="this.style.color='#FFFFFF'" onmouseout="this.style.color='#A0A09A'">
-                      <span>✉️</span> islamicschoolaverroes@gmail.com
+                    <a href="mailto:islamicschoolaverroes@gmail.com" style="color: #C0C0B8; text-decoration: none; font-size: 0.98rem; font-weight: 600; display: inline-flex; align-items: center; gap: 0.6rem; transition: color 0.2s;" onmouseover="this.style.color='#FFFFFF'" onmouseout="this.style.color='#C0C0B8'">
+                      <span style="font-size: 1.1rem;">✉️</span> islamicschoolaverroes@gmail.com
                     </a>
                   </div>
                 </div>
 
                 {{-- Direct WhatsApp CTA Button --}}
                 <a href="https://wa.me/6289505875530?text=Assalamu%27alaikum%20Admin%20Averroes,%20saya%20ingin%20mendaftar%20dan%20mengetahui%20informasi%20lengkap%20PPDB%20Averroes." target="_blank" rel="noopener"
-                  style="display: flex; align-items: center; justify-content: center; gap: 0.75rem; background: #E9C62C; color: #1A1A18; text-decoration: none; padding: 1rem 1.5rem; border-radius: 8px; font-weight: 800; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.05em; transition: transform 0.2s, background-color 0.2s; box-shadow: 0 4px 14px rgba(233,198,44,0.35);"
+                  style="display: flex; align-items: center; justify-content: center; gap: 0.75rem; background: #E9C62C; color: #1A1A18; text-decoration: none; padding: 1.15rem 1.6rem; border-radius: 8px; font-weight: 800; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 0.05em; transition: transform 0.2s, background-color 0.2s; box-shadow: 0 4px 14px rgba(233,198,44,0.35);"
                   onmouseover="this.style.transform='translateY(-2px)'; this.style.backgroundColor='#F3D23E'"
                   onmouseout="this.style.transform='translateY(0)'; this.style.backgroundColor='#E9C62C'">
                   <span>Daftar Sekarang via WhatsApp</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg>

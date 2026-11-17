@@ -1,8 +1,8 @@
 <div class="loader" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 9999999; display: flex; justify-content: center; align-items: center; background-color: var(--background--brand-primary, #E9C62C);">
-    <div class="loader_logo">
-        <div class="loader_logo-wrapper">
-            <div class="loader_svg w-embed">
-                <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 250 250" fill="none">
+    <div class="loader_logo" style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; max-width: 480px; transform: none !important;">
+        <div class="loader_logo-wrapper" style="position: relative; width: clamp(250px, 72vw, 340px); height: clamp(250px, 72vw, 340px); display: flex; align-items: center; justify-content: center;">
+            <div class="loader_svg w-embed" style="position: absolute; inset: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 250 250" preserveAspectRatio="xMidYMid meet" fill="none" style="width: 100%; height: 100%; display: block;">
                     <defs>
                         <clipPath id="ave-mask">
                             <rect id="mask-rect" x="0" y="0" width="0" height="250" />
@@ -24,8 +24,8 @@
                     </g>
                 </svg>
             </div>
-            <div class="loader_logo-underline w-embed">
-                <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 250 250" fill="none">
+            <div class="loader_logo-underline w-embed" style="position: absolute; inset: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 250 250" preserveAspectRatio="xMidYMid meet" fill="none" style="width: 100%; height: 100%; display: block;">
                     <g opacity="0.5">
                         <path
                             d="M115.682 60.0442L22.5092 221.036H208.677L190.42 189.417H203.389L228.643 233H1.00781L115.682 31.5028V60.0442Z"
@@ -43,16 +43,19 @@
             </div>
         </div>
         <a data-w-id="1d18e9fb-5a5a-1d60-6da6-98e5acb5a7c6" href="#"
-            class="button-primary is-loader w-inline-block">
-            <div class="button-primary_text">"JIWANYA SANTRI, SKILLNYA IT"</div>
+            class="button-primary is-loader w-inline-block"
+            style="margin-top: 1.5rem; text-decoration: none; padding: 0.25rem 0.5rem; background: transparent !important; background-color: transparent !important; box-shadow: none !important; border: none !important; display: inline-flex; align-items: center; justify-content: center; pointer-events: none;">
+            <div class="button-primary_text" style="font-size: clamp(1rem, 4.2vw, 1.25rem); font-weight: 800; letter-spacing: 0.08em; color: #ffffff !important; text-transform: uppercase;">
+                "JIWANYA SANTRI, SKILLNYA IT"
+            </div>
         </a>
     </div>
     <div class="loader_progress">
         <div class="loader_progress_content">
-            <div class="loader_percent">0%</div>
-            <div class="text-color-primary-700">[Loading...]</div>
+            <div class="loader_percent" style="font-size: clamp(2.5rem, 8vw, 4rem); font-weight: 900; line-height: 1;">0%</div>
+            <div class="text-color-primary-700" style="font-size: clamp(0.95rem, 3vw, 1.15rem); font-weight: 600;">[Loading...]</div>
         </div>
-        <div class="loader_bar-bg">
+        <div class="loader_bar-bg" style="height: 1.5rem;">
             <div class="loader_bar-fill"></div>
         </div>
     </div>

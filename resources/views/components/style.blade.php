@@ -60,9 +60,21 @@
         }
     }
 
+    @media screen and (max-width:991px) {
+        html {
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (max-width:767px) {
+        html {
+            font-size: 16px;
+        }
+    }
+
     @media screen and (max-width:479px) {
         html {
-            font-size: calc(0.7494769874476988rem + 0.8368200836820083vw);
+            font-size: 16px;
         }
     }
 </style>
@@ -124,8 +136,8 @@
         margin-left: auto !important;
     }
 
-    /* 
-Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+    /*
+Make the following elements inherit typography styles from the parent and not have hardcoded values.
 Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
 Uncomment this CSS to use it in the project. Leave this message for future hand-off.
 */
@@ -559,7 +571,7 @@ a,
             width: 100% !important;
         }
 
-        .footer_content-privacy-jeaco {
+        .footer_content-privacy-averroes {
             font-size: 0.8rem !important;
             color: #888880 !important;
             margin: 0 !important;
@@ -600,15 +612,15 @@ a,
         will-change: transform;
     }
 
-    .home-services_content-services > :nth-child(1) {
+    .home-services_content-services> :nth-child(1) {
         z-index: 2;
     }
 
-    .home-services_content-services > :nth-child(2) {
+    .home-services_content-services> :nth-child(2) {
         z-index: 3;
     }
 
-    .home-services_content-services > :nth-child(3) {
+    .home-services_content-services> :nth-child(3) {
         z-index: 4;
     }
 
@@ -734,7 +746,7 @@ a,
         color: #FFFFFF;
         font-size: 1.15rem;
         font-weight: 700;
-        text-shadow: 0 2px 6px rgba(0,0,0,0.7);
+        text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
         line-height: 1.3;
     }
 
@@ -752,7 +764,7 @@ a,
         letter-spacing: 0.08em;
         color: #555550;
         padding: 0.45rem 0.85rem;
-        border: 1px solid rgba(0,0,0,0.12);
+        border: 1px solid rgba(0, 0, 0, 0.12);
         background: #FFFFFF;
         display: inline-flex;
         align-items: center;
@@ -762,7 +774,7 @@ a,
 
     .averroes-slider-counter.is-dark {
         color: #E9C62C;
-        border-color: rgba(255,255,255,0.15);
+        border-color: rgba(255, 255, 255, 0.15);
         background: #1E1E1B;
     }
 
@@ -793,7 +805,7 @@ a,
 
     .averroes-slider-btn.is-dark {
         background: #1E1E1B;
-        border: 1px solid rgba(255,255,255,0.2);
+        border: 1px solid rgba(255, 255, 255, 0.2);
         color: #FFFFFF;
     }
 
@@ -811,27 +823,295 @@ a,
     }
 
     /* ===================================================
-       KENAPA KAMI? IMAGE MASKING HEADING
+       KENAPA KAMI? IMAGE MASKING HEADING (NO VW)
        =================================================== */
     .kenapa-kami-masked-heading {
         margin: 0;
         font-family: var(--_font---font-family--heading, sans-serif);
-        font-size: clamp(2.8rem, 8vw, 6.5rem) !important;
+        font-size: 6.5rem !important;
         font-weight: 900 !important;
         text-transform: uppercase;
         letter-spacing: -0.02em;
-        line-height: 1.05;
+        line-height: 0.95;
         display: inline-block;
-        
+
         /* Background Image Masking */
         background-image: var(--kenapa-kami-bg);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-        
+
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
         color: transparent !important;
+    }
+
+    @media screen and (max-width: 991px) {
+        .kenapa-kami-masked-heading {
+            font-size: 5.6rem !important;
+            line-height: 0.95;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .kenapa-kami-masked-heading {
+            font-size: 5.2rem !important;
+            line-height: 0.92;
+        }
+    }
+
+    @media screen and (max-width: 479px) {
+        .kenapa-kami-masked-heading {
+            font-size: 4.75rem !important;
+            line-height: 0.92;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .kenapa-kami-masked-heading {
+            font-size: 4.25rem !important;
+            line-height: 0.92;
+        }
+    }
+
+    /* ===================================================
+       AVERROES LOADER MOBILE FIX (PREVENT SHRINKING)
+       =================================================== */
+    .loader_logo,
+    .loader_logo-wrapper {
+        transform: none !important;
+    }
+
+    .button-primary.is-loader {
+        background: transparent !important;
+        background-color: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+    }
+
+    .button-primary.is-loader .button-primary_text {
+        color: #ffffff !important;
+    }
+
+    @media screen and (max-width: 991px) {
+        .loader_logo {
+            transform: none !important;
+        }
+        .loader_logo-wrapper {
+            width: clamp(250px, 60vw, 320px) !important;
+            height: clamp(250px, 60vw, 320px) !important;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .loader_logo {
+            transform: none !important;
+        }
+        .loader_logo-wrapper {
+            width: clamp(250px, 72vw, 330px) !important;
+            height: clamp(250px, 72vw, 330px) !important;
+        }
+        .button-primary.is-loader {
+            transform: none !important;
+        }
+    }
+
+    @media screen and (max-width: 479px) {
+        .loader_logo {
+            transform: none !important;
+        }
+        .loader_logo-wrapper {
+            width: clamp(260px, 76vw, 330px) !important;
+            height: clamp(260px, 76vw, 330px) !important;
+        }
+        .button-primary.is-loader {
+            transform: none !important;
+        }
+    }
+
+    /* ===================================================
+       MOBILE TYPOGRAPHY & READABILITY ENHANCEMENTS
+       (Comfortable & Clear for Parents / Adult Readers)
+       =================================================== */
+    .hero_motto {
+        font-size: clamp(1.15rem, 1.8vw, 1.65rem) !important;
+        font-weight: 600 !important;
+        letter-spacing: 0.04em !important;
+        color: #FFFFFF !important;
+        text-shadow: 0 2px 14px rgba(0,0,0,0.85) !important;
+        white-space: nowrap !important;
+    }
+
+    @media screen and (max-width: 767px) {
+        /* Base reading size & line-height */
+        body {
+            font-size: 1rem !important;
+            line-height: 1.65 !important;
+            color: #1A1A18;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        /* Paragraphs - comfortable reading */
+        p {
+            font-size: 1.05rem;
+            line-height: 1.68;
+            color: inherit;
+        }
+
+        .text-size-large {
+            font-size: 1.15rem !important;
+            line-height: 1.7 !important;
+        }
+
+        .text-size-medium {
+            font-size: 1.05rem !important;
+            line-height: 1.65 !important;
+        }
+
+        .text-size-regular {
+            font-size: 1rem !important;
+            line-height: 1.65 !important;
+        }
+
+        .text-size-small {
+            font-size: 0.95rem !important;
+            line-height: 1.55 !important;
+        }
+
+        .text-size-tiny {
+            font-size: 0.88rem !important;
+            line-height: 1.5 !important;
+        }
+
+        /* Headings legibility */
+        h1, .heading-style-h1 {
+            line-height: 1.05 !important;
+        }
+
+        h2, .heading-style-h2 {
+            line-height: 1.12 !important;
+        }
+
+        h3, .heading-style-h3 {
+            line-height: 1.18 !important;
+        }
+
+        h4, .heading-style-h4 {
+            font-size: 1.45rem !important;
+            line-height: 1.25 !important;
+        }
+
+        h5, .heading-style-h5 {
+            font-size: 1.15rem !important;
+            line-height: 1.3 !important;
+        }
+
+        /* Home About Section text */
+        .home-about_content p {
+            font-size: 1.12rem !important;
+            line-height: 1.75 !important;
+            color: #1A1A18 !important;
+        }
+
+        .home-about_content p b,
+        .home-about_content p strong {
+            color: #000000 !important;
+            font-weight: 700 !important;
+        }
+
+        .home-about_content-title h2 {
+            font-size: clamp(2.5rem, 9vw, 4rem) !important;
+        }
+
+        /* Kenapa Kami bullet points */
+        .projets-hero_content-text ul {
+            padding-left: 1.35rem;
+        }
+        .projets-hero_content-text ul li {
+            font-size: 1.1rem !important;
+            line-height: 1.7 !important;
+            margin-bottom: 0.6rem !important;
+            color: #1A1A18 !important;
+        }
+
+        /* Jurusan section cards */
+        .home-services_services-title h3 {
+            font-size: 1.5rem !important;
+            line-height: 1.25 !important;
+        }
+
+        .home-services_services-title p {
+            font-size: 1.05rem !important;
+            line-height: 1.65 !important;
+            color: rgba(255, 255, 255, 0.8) !important;
+        }
+
+        .home-services_content-link {
+            font-size: 1rem !important;
+            padding: 0.75rem 1.25rem !important;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Slider section texts */
+        .section_kegiatan p,
+        .section_fasilitas p {
+            font-size: 1.05rem !important;
+            line-height: 1.65 !important;
+        }
+
+        .averroes-slide-title h3 {
+            font-size: 1.18rem !important;
+            line-height: 1.3 !important;
+        }
+
+        /* Partner section */
+        .clients_content h5 {
+            font-size: 1.35rem !important;
+        }
+        .clients_content p {
+            font-size: 1.05rem !important;
+            line-height: 1.65 !important;
+        }
+
+        /* Footer Nav & Footer */
+        .footer_nav-content_contact-wrapper h3 {
+            font-size: 1.65rem !important;
+            line-height: 1.2 !important;
+        }
+        .footer_nav-content_contact-wrapper p {
+            font-size: 1.15rem !important;
+        }
+        .footer_nav-content-info p {
+            font-size: 1rem !important;
+        }
+        .footer_nav-content-link p {
+            font-size: 1.25rem !important;
+        }
+        .footer_content-link {
+            font-size: 1.08rem !important;
+            line-height: 2.2 !important;
+        }
+
+        /* Hero Banner Motto for Mobile */
+        .section_home-hero {
+            height: 100svh !important;
+            min-height: 100svh !important;
+        }
+
+        .hero_motto {
+            font-size: clamp(1.02rem, 4.2vw, 1.3rem) !important;
+            line-height: 1.25 !important;
+            margin-top: 1rem !important;
+            white-space: nowrap !important;
+        }
+    }
+
+    @media screen and (max-width: 479px) {
+        .hero_motto {
+            font-size: clamp(0.92rem, 4.4vw, 1.15rem) !important;
+            white-space: nowrap !important;
+        }
     }
 </style>

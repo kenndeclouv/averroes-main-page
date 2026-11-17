@@ -61,29 +61,29 @@
 
                         <div class="direct-contact-wrapper" style="display: flex; flex-direction: column; gap: 20px; width: 100%;">
                             <!-- WHATSAPP PRIMARY CARD -->
-                            <div class="direct-contact-card is-whatsapp" style="border: 2px solid #1A1A18; background-color: #E9C62C; color: #1A1A18; padding: 24px; box-shadow: 5px 5px 0px #1A1A18;">
+                            <div class="direct-contact-card is-whatsapp" style="border: 2px solid #1A1A18; background-color: #E9C62C; color: #1A1A18; padding: 26px; box-shadow: 6px 6px 0px #1A1A18;">
                                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 8px;">
-                                    <div style="display: inline-flex; align-items: center; gap: 8px; background: #1A1A18; color: #FFFFFF; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 10px;">
+                                    <div style="display: inline-flex; align-items: center; gap: 8px; background: #1A1A18; color: #FFFFFF; font-size: 0.88rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 12px;">
                                         <span style="display: inline-block; width: 8px; height: 8px; background-color: #00FF66;"></span>
                                         Respon Cepat • PPDB & Konsultasi
                                     </div>
-                                    <div style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: #1A1A18;">
+                                    <div style="font-size: 0.85rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: #1A1A18;">
                                         Senin – Jumat (08.00 – 16.00)
                                     </div>
                                 </div>
 
-                                <div style="margin-bottom: 8px;">
+                                <div style="margin-bottom: 10px;">
                                     <a href="https://wa.me/6288999999744?text=Halo%20Admin%20Averroes,%20saya%20ingin%20tanya%20informasi%20sekolah%20dan%20pendaftaran" 
                                        target="_blank" 
                                        rel="noopener"
                                        style="text-decoration: none; color: inherit;">
-                                        <div style="font-family: var(--_font---font-family--heading, sans-serif); font-size: clamp(1.4rem, 2.3vw, 1.85rem); font-weight: 800; line-height: 1.1; margin: 0; color: #1A1A18;">
+                                        <div style="font-family: var(--_font---font-family--heading, sans-serif); font-size: clamp(1.65rem, 2.8vw, 2.15rem); font-weight: 900; line-height: 1.1; margin: 0; color: #1A1A18;">
                                             +62 889 9999 9744
                                         </div>
                                     </a>
                                 </div>
 
-                                <p style="font-size: 0.92rem; line-height: 1.5; color: #1A1A18; margin: 0 0 18px 0;">
+                                <p style="font-size: 1.02rem; line-height: 1.6; color: #1A1A18; margin: 0 0 20px 0; font-weight: 500;">
                                     Konsultasi langsung santri baru, rincian biaya & beasiswa, program tahfidz Al-Qur'an, kurikulum IT (RPL & DKV), hingga janji temu kunjungan sekolah.
                                 </p>
 
@@ -91,52 +91,52 @@
                                    target="_blank" 
                                    rel="noopener"
                                    class="direct-contact-btn"
-                                   style="display: flex; align-items: center; justify-content: space-between; background-color: #1A1A18; color: #FFFFFF; text-decoration: none; font-family: var(--_font---font-family--heading, sans-serif); font-weight: 700; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 13px 18px; border: 2px solid #1A1A18; width: 100%;">
+                                   style="display: flex; align-items: center; justify-content: space-between; background-color: #1A1A18; color: #FFFFFF; text-decoration: none; font-family: var(--_font---font-family--heading, sans-serif); font-weight: 800; font-size: 1.02rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 15px 20px; border: 2px solid #1A1A18; width: 100%;">
                                     <span style="display: inline-flex; align-items: center; gap: 10px;">
-                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
                                             <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M9.11 7.44C8.94 7.44 8.68 7.5 8.45 7.74C8.22 8 7.58 8.6 7.58 9.83C7.58 11.06 8.48 12.25 8.6 12.42C8.73 12.58 10.36 15.22 12.92 16.22C15.05 17.06 15.49 16.89 15.95 16.85C16.41 16.81 17.44 16.24 17.65 15.65C17.86 15.06 17.86 14.56 17.8 14.45C17.74 14.35 17.57 14.29 17.32 14.16C17.07 14.04 15.84 13.43 15.61 13.35C15.38 13.27 15.22 13.23 15.05 13.48C14.88 13.73 14.41 14.29 14.26 14.45C14.12 14.62 13.97 14.64 13.72 14.52C13.47 14.39 12.42 14.05 11.18 12.94C10.21 12.08 9.56 11.01 9.44 10.77C9.31 10.52 9.42 10.39 9.55 10.26C9.66 10.15 9.8 9.97 9.92 9.83C10.05 9.68 10.09 9.58 10.17 9.41C10.25 9.25 10.21 9.1 10.15 8.98C10.09 8.85 9.62 7.68 9.41 7.21C9.21 6.75 9 6.81 8.86 6.81C8.72 6.81 8.56 6.81 8.4 6.81L9.11 7.44Z"/>
                                         </svg>
                                         Chat WhatsApp PPDB
                                     </span>
-                                    <span style="font-size: 1.15rem; line-height: 1;">→</span>
+                                    <span style="font-size: 1.25rem; line-height: 1;">→</span>
                                 </a>
                             </div>
 
                             <!-- EMAIL FORMAL CARD -->
-                            <div class="direct-contact-card is-email" style="border: 2px solid #1A1A18; background-color: #FFFFFF; color: #1A1A18; padding: 24px; box-shadow: 5px 5px 0px #1A1A18;">
+                            <div class="direct-contact-card is-email" style="border: 2px solid #1A1A18; background-color: #FFFFFF; color: #1A1A18; padding: 26px; box-shadow: 6px 6px 0px #1A1A18;">
                                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 8px;">
-                                    <div style="display: inline-flex; align-items: center; gap: 8px; background: #F8F8F6; color: #1A1A18; border: 1px solid #1A1A18; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 10px;">
+                                    <div style="display: inline-flex; align-items: center; gap: 8px; background: #F8F8F6; color: #1A1A18; border: 1px solid #1A1A18; font-size: 0.88rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 12px;">
                                         Surat Resmi & Kemitraan
                                     </div>
-                                    <div style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #767676;">
+                                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #666660;">
                                         Korespondensi Resmi
                                     </div>
                                 </div>
 
-                                <div style="margin-bottom: 8px;">
+                                <div style="margin-bottom: 10px;">
                                     <a href="mailto:islamicschoolaverroes@gmail.com?subject=Tanya%20Informasi%20SMK%20Averroes" 
                                        style="text-decoration: none; color: inherit;">
-                                        <div style="font-family: var(--_font---font-family--heading, sans-serif); font-size: clamp(1.05rem, 1.8vw, 1.35rem); font-weight: 800; line-height: 1.2; margin: 0; color: #1A1A18; word-break: break-all;">
+                                        <div style="font-family: var(--_font---font-family--heading, sans-serif); font-size: clamp(1.15rem, 2vw, 1.45rem); font-weight: 800; line-height: 1.2; margin: 0; color: #1A1A18; word-break: break-all;">
                                             islamicschoolaverroes@gmail.com
                                         </div>
                                     </a>
                                 </div>
 
-                                <p style="font-size: 0.92rem; line-height: 1.5; color: #555555; margin: 0 0 18px 0;">
+                                <p style="font-size: 1.02rem; line-height: 1.6; color: #4A4A45; margin: 0 0 20px 0;">
                                     Untuk kerjasama industri (MoU), penyaluran magang kerja (PKL), undangan dinas, permohonan kunjungan rombongan, atau administrasi sekolah.
                                 </p>
 
                                 <a href="mailto:islamicschoolaverroes@gmail.com?subject=Tanya%20Informasi%20SMK%20Averroes" 
                                    class="direct-contact-btn"
-                                   style="display: flex; align-items: center; justify-content: space-between; background-color: #F8F8F6; color: #1A1A18; text-decoration: none; font-family: var(--_font---font-family--heading, sans-serif); font-weight: 700; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 13px 18px; border: 2px solid #1A1A18; width: 100%;">
+                                   style="display: flex; align-items: center; justify-content: space-between; background-color: #F8F8F6; color: #1A1A18; text-decoration: none; font-family: var(--_font---font-family--heading, sans-serif); font-weight: 800; font-size: 1.02rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 15px 20px; border: 2px solid #1A1A18; width: 100%;">
                                     <span style="display: inline-flex; align-items: center; gap: 10px;">
-                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square">
+                                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square">
                                             <rect x="2" y="4" width="20" height="16"/>
                                             <path d="M22 6L12 13L2 6"/>
                                         </svg>
                                         Kirim Email Resmi
                                     </span>
-                                    <span style="font-size: 1.15rem; line-height: 1;">→</span>
+                                    <span style="font-size: 1.25rem; line-height: 1;">→</span>
                                 </a>
                             </div>
 
@@ -415,25 +415,25 @@
                   <div style="display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 1.25rem; border-bottom: 2px solid #1A1A18; padding-bottom: 1.25rem;">
                     <div>
                       <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.35rem;">
-                        <span style="font-size: 0.72rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: #B38F00;">
+                        <span style="font-size: 0.85rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: #B38F00;">
                           Peta &amp; Titik Lokasi
                         </span>
-                        <span style="display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.68rem; font-weight: 800; text-transform: uppercase; color: #1A1A18; background: #E9C62C; padding: 0.2rem 0.5rem; border-radius: 0;">
-                          <span style="width: 5px; height: 5px; background: #1A1A18; display: inline-block;"></span>
+                        <span style="display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.78rem; font-weight: 800; text-transform: uppercase; color: #1A1A18; background: #E9C62C; padding: 0.25rem 0.6rem; border-radius: 0;">
+                          <span style="width: 6px; height: 6px; background: #1A1A18; display: inline-block;"></span>
                           Google Maps Live
                         </span>
                       </div>
-                      <h3 style="font-family: var(--_font---font-family--heading, sans-serif); font-size: clamp(1.35rem, 2.2vw, 1.85rem); font-weight: 900; text-transform: uppercase; margin: 0; color: #1A1A18; line-height: 1.1;">
+                      <h3 style="font-family: var(--_font---font-family--heading, sans-serif); font-size: clamp(1.45rem, 2.3vw, 1.95rem); font-weight: 900; text-transform: uppercase; margin: 0; color: #1A1A18; line-height: 1.1;">
                         Wilayah Kampus &amp; Kantor PPDB
                       </h3>
                     </div>
 
                     {{-- Location Switcher Tabs (100% Ngotak, Square Brutalist) --}}
-                    <div style="display: inline-flex; gap: 0.35rem; background: #F0F0EE; padding: 0.25rem; border: 1.5px solid #1A1A18; border-radius: 0; flex-wrap: wrap;">
-                      <button type="button" id="tab-btn-kantor" onclick="switchLocation('kantor')" style="cursor: pointer; padding: 0.6rem 1.15rem; font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; border: none; border-radius: 0; background: #1A1A18; color: #FFFFFF; transition: all 0.2s;">
+                    <div style="display: inline-flex; gap: 0.35rem; background: #F0F0EE; padding: 0.35rem; border: 1.5px solid #1A1A18; border-radius: 0; flex-wrap: wrap;">
+                      <button type="button" id="tab-btn-kantor" onclick="switchLocation('kantor')" style="cursor: pointer; padding: 0.65rem 1.25rem; font-size: 0.88rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; border: none; border-radius: 0; background: #1A1A18; color: #FFFFFF; transition: all 0.2s;">
                         Kantor PPDB (Permata Jingga)
                       </button>
-                      <button type="button" id="tab-btn-kampus" onclick="switchLocation('kampus')" style="cursor: pointer; padding: 0.6rem 1.15rem; font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; border: none; border-radius: 0; background: transparent; color: #666660; transition: all 0.2s;">
+                      <button type="button" id="tab-btn-kampus" onclick="switchLocation('kampus')" style="cursor: pointer; padding: 0.65rem 1.25rem; font-size: 0.88rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; border: none; border-radius: 0; background: transparent; color: #555550; transition: all 0.2s;">
                         Kampus Utama (Cemorokandang)
                       </button>
                     </div>
@@ -454,38 +454,38 @@
                   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem;">
                     
                     {{-- Card 1: Kantor Informasi & PPDB --}}
-                    <div id="card-detail-kantor" style="background: #FBFBFA; border: 1.5px solid #1A1A18; border-left: 6px solid #E9C62C; border-radius: 0; padding: 1.25rem 1.5rem; transition: all 0.2s;">
-                      <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 0.35rem;">
-                        <strong style="font-size: 0.95rem; color: #1A1A18; text-transform: uppercase; font-family: var(--_font---font-family--heading, sans-serif);">
+                    <div id="card-detail-kantor" style="background: #FBFBFA; border: 1.5px solid #1A1A18; border-left: 6px solid #E9C62C; border-radius: 0; padding: 1.35rem 1.6rem; transition: all 0.2s;">
+                      <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 0.45rem;">
+                        <strong style="font-size: 1.05rem; color: #1A1A18; text-transform: uppercase; font-family: var(--_font---font-family--heading, sans-serif);">
                           Kantor Informasi &amp; Pendaftaran
                         </strong>
-                        <span style="font-size: 0.72rem; font-weight: 800; color: #B38F00; text-transform: uppercase;">Lowokwaru</span>
+                        <span style="font-size: 0.85rem; font-weight: 800; color: #B38F00; text-transform: uppercase;">Lowokwaru</span>
                       </div>
-                      <p style="margin: 0 0 0.85rem 0; font-size: 0.88rem; color: #444; line-height: 1.55;">
+                      <p style="margin: 0 0 0.95rem 0; font-size: 0.98rem; color: #2A2A26; line-height: 1.6;">
                         Perumahan Permata Jingga Blok Pinang No. 5, Tunggulwulung, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141
                       </p>
-                      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; font-size: 0.82rem; color: #666; border-top: 1px dashed rgba(0,0,0,0.15); padding-top: 0.75rem;">
+                      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; font-size: 0.92rem; color: #444; border-top: 1px dashed rgba(0,0,0,0.15); padding-top: 0.85rem;">
                         <span>WA PPDB: <a href="https://wa.me/6288999999744" target="_blank" rel="noopener" style="color: #1A1A18; font-weight: 800; text-decoration: none;">+62 889 9999 9744</a></span>
-                        <a href="https://www.google.com/maps/place/Averroes+Digital+Islamic+School+(ADIS)/@-7.9290605,112.6125921,17z/data=!3m1!4b1!4m6!3m5!1s0x2dd6299cca363cf3:0xadbb7d92dc3970a3!8m2!3d-7.9290605!4d112.617463!16s%2Fg%2F11sw0g5wx3" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.35rem; font-weight: 800; font-size: 0.75rem; color: #1A1A18; background: #E9C62C; border: 1.5px solid #1A1A18; padding: 0.4rem 0.85rem; border-radius: 0; text-decoration: none; text-transform: uppercase;">
+                        <a href="https://www.google.com/maps/place/Averroes+Digital+Islamic+School+(ADIS)/@-7.9290605,112.6125921,17z/data=!3m1!4b1!4m6!3m5!1s0x2dd6299cca363cf3:0xadbb7d92dc3970a3!8m2!3d-7.9290605!4d112.617463!16s%2Fg%2F11sw0g5wx3" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.4rem; font-weight: 800; font-size: 0.85rem; color: #1A1A18; background: #E9C62C; border: 1.5px solid #1A1A18; padding: 0.5rem 1rem; border-radius: 0; text-decoration: none; text-transform: uppercase;">
                           Buka Google Maps ↗
                         </a>
                       </div>
                     </div>
 
                     {{-- Card 2: Kampus Utama & Asrama --}}
-                    <div id="card-detail-kampus" style="background: #FBFBFA; border: 1.5px solid #1A1A18; border-left: 6px solid #D0D0CE; border-radius: 0; padding: 1.25rem 1.5rem; transition: all 0.2s;">
-                      <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 0.35rem;">
-                        <strong style="font-size: 0.95rem; color: #1A1A18; text-transform: uppercase; font-family: var(--_font---font-family--heading, sans-serif);">
+                    <div id="card-detail-kampus" style="background: #FBFBFA; border: 1.5px solid #1A1A18; border-left: 6px solid #D0D0CE; border-radius: 0; padding: 1.35rem 1.6rem; transition: all 0.2s;">
+                      <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 0.45rem;">
+                        <strong style="font-size: 1.05rem; color: #1A1A18; text-transform: uppercase; font-family: var(--_font---font-family--heading, sans-serif);">
                           Kampus &amp; Asrama Santri
                         </strong>
-                        <span style="font-size: 0.72rem; font-weight: 800; color: #666; text-transform: uppercase;">Kedungkandang</span>
+                        <span style="font-size: 0.85rem; font-weight: 800; color: #555; text-transform: uppercase;">Kedungkandang</span>
                       </div>
-                      <p style="margin: 0 0 0.85rem 0; font-size: 0.88rem; color: #444; line-height: 1.55;">
+                      <p style="margin: 0 0 0.95rem 0; font-size: 0.98rem; color: #2A2A26; line-height: 1.6;">
                         Jl. Slamet Temboro No. 85, Baran Temboro, Kel. Cemorokandang, Kec. Kedungkandang, Kota Malang, Jawa Timur 65138
                       </p>
-                      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; font-size: 0.82rem; color: #666; border-top: 1px dashed rgba(0,0,0,0.15); padding-top: 0.75rem;">
+                      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; font-size: 0.92rem; color: #444; border-top: 1px dashed rgba(0,0,0,0.15); padding-top: 0.85rem;">
                         <span>Fasilitas: <b style="color: #1A1A18;">Kampus &amp; Asrama Santri</b></span>
-                        <a href="https://www.google.com/maps/search/?api=1&query=SMK+Averroes+Digital+Islamic+School+Cemorokandang+Malang" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.35rem; font-weight: 800; font-size: 0.75rem; color: #FFFFFF; background: #1A1A18; border: 1.5px solid #1A1A18; padding: 0.4rem 0.85rem; border-radius: 0; text-decoration: none; text-transform: uppercase;">
+                        <a href="https://www.google.com/maps/search/?api=1&query=SMK+Averroes+Digital+Islamic+School+Cemorokandang+Malang" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.4rem; font-weight: 800; font-size: 0.85rem; color: #FFFFFF; background: #1A1A18; border: 1.5px solid #1A1A18; padding: 0.5rem 1rem; border-radius: 0; text-decoration: none; text-transform: uppercase;">
                           Buka Google Maps ↗
                         </a>
                       </div>

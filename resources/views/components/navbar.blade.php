@@ -427,7 +427,7 @@
                         </div>
 
                         <div class="text-color-primary-700 text-size-tiny text-style-italic text-style-allcaps is-nav">
-                            © Averroes {{ Date('Y') }} — By <a href="https://kenndeclouv.com"
+                            © Averroes {{ Date('Y') }} — By <a href="https://kenndeclouv.com" target="_blank"
                                 class="text-color-primary">Kenndeclouv</a>
                         </div>
                     </div>
